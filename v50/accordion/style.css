@@ -1,0 +1,13 @@
+.accordion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description {
+  display: none;
+}
+
+.active + .description {
+  display: block;
+}
